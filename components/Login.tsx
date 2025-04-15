@@ -38,8 +38,8 @@ const Login = () => {
               <div className="div-2">
                 <div className="text-wrapper-3">Contraseña</div>
                 <div className="div-wrapper">
-                <input type="email" className="text-wrapper-4" placeholder="************" />
-                </div>
+  <input type="password" className="text-wrapper-4" placeholder="************" />
+</div>
               </div>
               <div className="frame-3">
                 <div className="checkbox">
@@ -54,7 +54,7 @@ const Login = () => {
               </div>
             </div>
           </div>
-          <Link href="/loginsesion">  //añadir el principal
+          <Link href="/loginsesion">  
             <div className="bingresar">
             <div className="text-wrapper-8">Ingresar</div>
             </div></Link>

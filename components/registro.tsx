@@ -33,7 +33,7 @@ const RegistroPage = () => {
 </div>
 
       <div className="registro-right">
-        <h2>Regístrate</h2>
+        <h2 className='registro'>    Regístrate</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="nombre">Nombres y Apellidos</label>

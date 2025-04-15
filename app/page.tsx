@@ -6,6 +6,7 @@ export default function Home() {
     <>
       <Head>
         <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="/globals.css" />
         <link rel="stylesheet" href="/styleguide.css" />
         <link rel="stylesheet" href="/style.css" />
@@ -14,7 +15,7 @@ export default function Home() {
       <div className="desktop">
         <div className="div">
           <div className="frame">
-            <div className="container"></div>
+            
             <div className="link"><div className="text-wrapper">PostMe</div></div>
             <Link href="/loginsesion">
             <div className="background-shadow">
