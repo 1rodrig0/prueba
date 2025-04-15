@@ -44,7 +44,7 @@
   }
   
   .form-group input {
-    width: 100%;
+    width: 140%;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
@@ -54,7 +54,7 @@
   .form-group button {
     width: 100%;
     padding: 10px;
-    background-color: #4caf50;
+    background-color: #00adb5;
     color: white;
     font-size: 1.2rem;
     border: none;
@@ -63,7 +63,7 @@
   }
   
   .form-group button:hover {
-    background-color: #45a049;
+    background-color: #00adb5;
   }
   
   .login-link {
@@ -71,7 +71,7 @@
   }
   
   .login-link a {
-    color: #007bff;
+    color: #00adb5;
     text-decoration: none;
   }
   

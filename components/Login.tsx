@@ -1,5 +1,6 @@
 // components/Login.tsx
 import Image from 'next/image';
+import Link from 'next/link';
 import './Login.css';
 import checkIcon from '../public/globe.svg';
 
@@ -53,10 +54,10 @@ const Login = () => {
               </div>
             </div>
           </div>
-          <div className="bingresar">
-            
+          <Link href="/loginsesion">  //añadir el principal
+            <div className="bingresar">
             <div className="text-wrapper-8">Ingresar</div>
-          </div>
+            </div></Link>
         </div>
       </div>
     </div>

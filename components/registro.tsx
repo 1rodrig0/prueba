@@ -70,10 +70,11 @@ const RegistroPage = () => {
               required
             />
           </div>
-
-          <div className="form-group">
+          <Link href="/loginsesion">  
+            <div className="form-group">
             <button type="submit">Registrar</button>
-          </div>
+            </div></Link>
+         
         </form>
 
         <div className="login-link">
